@@ -63,7 +63,7 @@ class Minify {
 	 * @param	string
 	 */
 	public function setTarget($target='') {
-		$this->target = ($target == '' ? preg_replace('/(.+)\.(js|css)$/i', '$1.min.$2', $this->source) : $target);	
+		$this->target = ($target == '' ? $this->get_default_target() : $target);	
 	}
 	
 	/**
