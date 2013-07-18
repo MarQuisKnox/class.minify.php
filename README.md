@@ -4,8 +4,8 @@ class.minify.php
 A pretty simple PHP minify tool for JS and CSS files. It works using regular expressions and it has no external dependences.
 It removes comments, linebreaks, extra whitespaces and it fixes wrong object notation (JavaScript).
 
-Ussage
-------
+Usage
+-----
 
 <pre><code>require_once('class.minify.php');
 $minify = new Minify();
